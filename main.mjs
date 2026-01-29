@@ -18,7 +18,7 @@ const userData =
         }
     ]
 
-app.get('/user', (req, res) => {
+app.get('/profiles', (req, res) => {
     return res.json({ data: userData });
 });
 
